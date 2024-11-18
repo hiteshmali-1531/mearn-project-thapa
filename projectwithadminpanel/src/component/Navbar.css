@@ -1,0 +1,42 @@
+
+
+.container{
+    max-width: 140rem;
+    margin: auto;
+    padding: 4.2rem 2.4rem;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: black; */
+    
+}
+
+.container ul{
+    display: flex;
+    gap: 2.4rem;
+}
+
+.container .logo-brand{
+    font-size: 4rem;
+    
+}
+
+.container .logo-brand *{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.container ul  li{
+    font-size: 2rem;
+    list-style: none;
+}
+
+.container ul li *{
+    color: #fff;
+    text-decoration: none;
+}
+
+.container ul li :first-child:hover{
+    color: grey;
+}
+
